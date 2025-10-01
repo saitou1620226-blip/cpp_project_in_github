@@ -18,6 +18,7 @@ add_executable(${ProjectName}
 #     ooo.cpp
 # )
 
+
 # Add test module
 option(BUILD_TESTS "BUILD_TESTS" ON)
 if (BUILD_TESTS)
