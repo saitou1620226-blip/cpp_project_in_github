@@ -25,3 +25,11 @@ include(${CMAKE_SOURCE_DIR}/cmakes/compile_option.cmake)
 # Add test modules
 add_subdirectory(./main)
 add_subdirectory(./calculator)
+
+enable_testing()
+
+add_executable(my_test my_test.cpp)
+target_link_libraries(my_test gtest_main)
+add_test(NAME MyTest COMMAND my_test)
+
+
