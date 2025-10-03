@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 3.1...4.1)
 
 set(TestName TestMain)
 
@@ -13,3 +13,4 @@ gtest_discover_tests(${TestName})
 
 # Link to the target module
 # target_link_libraries(${TestName} ooo)
+
