@@ -72,4 +72,3 @@ jobs:
           ${{ matrix.artifact_name }}
           LICENSE
           NOTICE.md
-          
