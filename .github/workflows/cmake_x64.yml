@@ -29,7 +29,7 @@ jobs:
             artifact_name: main_mac_darwin.tgz
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
       # with:
       #   fetch-depth: 1
       #   submodules: recursive
