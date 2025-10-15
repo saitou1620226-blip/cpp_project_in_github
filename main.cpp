@@ -34,3 +34,7 @@ int main(int argc, char* argv[])
 
     return 0;
 }
+
+/* Cause security warning */
+char buffer[1];
+buffer[3] = 1;
